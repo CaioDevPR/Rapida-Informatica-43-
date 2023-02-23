@@ -17,7 +17,7 @@ header{
     width: 100%;
     padding: 30px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     z-index: 100;
 }
@@ -26,6 +26,7 @@ header{
     font-size: 2rem;
     color: blue;
     pointer-events: none;
+    margin-right: 270px;
 }
 
 .navegacao a{
@@ -37,7 +38,52 @@ header{
     font-weight: 600;
 }
 
-.navegacao:hover{
+.navegacao:hover
+.navegacao:active{
  background: aqua ; 
  color: #fff
 }
+
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 5rem;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba( 0,0, 0, 0.2);
+
+}
+
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.segunds {
+    position: relative;
+    background-color: #333;
+    padding: 100px;
+}
+
+segunds h2{
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.segunds p{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 300;
+
+}
+
