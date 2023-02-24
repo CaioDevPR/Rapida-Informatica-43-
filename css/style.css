@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family= Inter:wght@500;600;700 & display =swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'inter', sans-serif;
+}
+:root{
+    --navbar: #000;
+    --bodycolor: #fff;
+    --colorazul: #00caf8;
+
+}
+body{
+    background-color: var(--bodycolor);
+}
+
+section,footer {
+    padding: 54px 0;
+    background-color: transparent;
+}
+
+h3{
+    font-size: 50px;
+}
+
+p{
+    color: #000;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.bck{
+    background-image: url('/imag/24.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul a{
+    color: var(--bodycolor);
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+
+/* botao contato */
+
+.btn{
+    background-color: #00caf8;
+    color: var(--bodycolor);
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 0.2s ;
+}
+
+.btn:hover{
+    background-color: #3580db;
+}
+
+.banner{
+    display: block;
+    justify-content: center;
+}
+
+.banner .baner{
+  margin: 150px;
+  text-align: center;
+  padding: 0 90px;
+}
+
+.banner .baner h1{
+ font-size: 96px;
+ color: var(--bodycolor);
+}
