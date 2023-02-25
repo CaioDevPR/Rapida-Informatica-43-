@@ -65,6 +65,11 @@ nav ul a{
     display: block;
 }
 
+nav a{
+color: var(--bodycolor);
+
+}
+
 nav ul a:not(.btn)::after{
    content: " "; 
    background-color: red;
