@@ -85,14 +85,29 @@ nav ul a:hover::after{
     background-color: #00caf8;
     color: var(--bodycolor);
     padding: 15px 20px;
+    cursor: pointer;
     border-radius: 10px;
     display: inline-block;
-    transition: 0.2s ;
+    transition: 0.1s ;
 }
 
 .btn:hover{
     background-color: #3580db;
 }
+
+.btn.animate-btn{
+    animation: animate-outline 1s ease-out infinite;
+}
+
+@keyframes animate-outline{
+    from{
+      outline: 0px solid #3580db;
+    }
+    to{
+      outline: 15px solid #3580db;
+    }
+}
+
 
 .banner{
     display: block;
@@ -117,4 +132,29 @@ nav ul a:hover::after{
     margin: 18px 0;
 
 }
+
+/* faca mais */
+
+.faca-mais .container{
+    display: flex;
+    align-items: center;
+}
+.faca-mais-text{
+    width: 50%;
+    padding: 0 40px;
+}
+
+.faca-mais .faca-mais-img{
+  width: 50%;
+}
+.faca-mais .faca-mais-text h3{
+    font-size: 56px ;
+}
+.faca-mais .faca-mais-text p{
+    margin: 5px 0 10px 0;
+}
+
+.faca-mais .faca-mais-img img{
+    width: 100%;
+  }
 
