@@ -169,3 +169,23 @@ text-align: center;
     align-items: center;
     justify-content: space-around;
 }
+
+
+
+.footer{
+    background-color: var(--colorazul);
+    text-align: center;
+}
+
+.footer i{
+    color: var(--bodycolor);
+    font-size: 19px;
+    background-color: var(--bodycolor);
+    padding: 20px;
+    margin: 19px;
+    border-radius: 10px;
+}
+
+.footer a img{
+    width: 23px;
+}
