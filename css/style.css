@@ -330,7 +330,56 @@ text-align: center;
     font-size: 28px;
 }
 
-.dados .dados-item
+/* pagina de contato */
+
+.contato-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contato-info .direito-lado{
+    width: 50%;
+    padding: 30px;
+    background-color: #3580db;
+    border-radius: 14px;
+    margin-right: 50px;
+    height: fit-content;
+}
+
+.contato-info.esquerdo-lado div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contato-info .esquerdo-lado div i{
+    font-size: 24px;
+    margin-right: 20px;
+    color: var(--bodycolor);
+}
+
+.contato-info .esquerdo-lado p {
+    font-size: 17px;
+    color: var(--navbar);
+}
+
+.contato-info .direito-lado{
+ width: 50%;
+}
+
+.contato-info .direito-lado input{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 47px;
+    padding: 15px;
+    border-radius: 9px;
+    transition: 0.3s;
+    border: 1px solid #f1f1f1;
+    color: var(--navbar);
+    font-weight: lighter;
+}
 
 
 
