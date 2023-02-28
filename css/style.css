@@ -297,6 +297,42 @@ text-align: center;
 
 
 
+/* DADOS */
+
+.dados{background: var(--bodycolor); 
+}
+
+.dados .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dados .dados-item{
+    text-align: center;
+    margin: 15px;
+    color: var(--navbar);
+}
+
+.dados .dados-item img{
+    background-color: var(--colorazul);
+    border-radius: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 80px;
+}
+
+.dados .dados-item p{
+    font-size: 18px;
+}
+
+.dados .dados-item p strong{
+    font-size: 28px;
+}
+
+.dados .dados-item
+
+
 
 
 
