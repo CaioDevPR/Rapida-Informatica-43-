@@ -259,6 +259,15 @@ text-align: center;
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.servicos .row-card-item{
+    background-color: var(--colorazul);
+    width: 350px;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px;
 }
 
 
