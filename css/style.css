@@ -268,9 +268,32 @@ text-align: center;
     padding: 20px;
     border-radius: 14px;
     margin: 20px;
+    transition: 0.3s;
 }
 
+.servicos .row-card-item:hover{
+    background-color: #3580db;
+}
 
+.servicos .row-card-item:hover p{
+    color: var(--bodycolor);
+}
+
+.servicos .row-card-item img {
+    background-color: var(--colorazul);
+    border-radius: 14px;
+    width: 70px;
+    padding: 9px;
+}
+
+.servicos .row-card-item p.nome-servico{
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.servicos .row-card-item p.descricao{
+    transition: 0.3s;
+}
 
 
 
