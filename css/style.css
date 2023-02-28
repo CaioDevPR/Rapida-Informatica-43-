@@ -338,7 +338,7 @@ text-align: center;
     margin-top: 50px;
 }
 
-.contato-info .direito-lado{
+.contato-info .esquerdo-lado{
     width: 50%;
     padding: 30px;
     background-color: #3580db;
@@ -347,7 +347,7 @@ text-align: center;
     height: fit-content;
 }
 
-.contato-info.esquerdo-lado div{
+.contato-info .esquerdo-lado div{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -380,6 +380,28 @@ text-align: center;
     color: var(--navbar);
     font-weight: lighter;
 }
+
+.contato-info .direito-lado input:focus,
+.contato-info .direito-lado textarea:focus{
+    border-color: var(--colorazul);
+}
+
+.contato-info .direito-lado textarea{
+    border: 1px solid #f1f1f1;
+    color: var(--navbar);
+    border-radius: 9px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+    transition: 0.3s;
+    resize: none;
+}
+
+.contato-info .direito-lado button{
+    border: none;
+}
+
+
 
 
 
