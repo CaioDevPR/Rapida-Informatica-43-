@@ -38,7 +38,7 @@ p{
 }
 
 .bck{
-    background-image: url('/imag/24.jpg');
+    background-image: url('/imag/fundowbesite.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -91,6 +91,11 @@ nav .menu-icon{
     display: none;
 }
 
+nav .close-icon{
+    display: none;
+    font-size: 30px;
+    color: var(--bodycolor);
+}
 
 
 /* botao contato */
@@ -210,6 +215,51 @@ text-align: center;
 }
 
 
+
+
+
+/* pagina sobre */
+
+.sobre .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre .sobre-texto{
+    width: 50%;
+    padding-right: 40px;
+}
+
+.sobre .sobre-texto p {
+    margin: 18px;
+    color: var(--navbar);
+}
+
+.sobre .sobre-image{
+    width: 50%;
+}
+
+.sobre .sobre-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* RESPONSIVIDADE */
 
 @media (max-width: 830px){
@@ -224,8 +274,14 @@ text-align: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    clip-path: circle(0% at 100% 0);
+     transition: 0.7s;
    }
 
+   .ul.open{
+    clip-path: circle(141.3% at 100% 0);
+
+   }
    .ul a {
     margin: 10px 0;
     font-size: 16px;
@@ -233,5 +289,11 @@ text-align: center;
    }
    nav .menu-icon{
     display: block;
+   }
+   nav .close-icon{
+    display: block;
+    position: absolute;
+    top: 46px;
+    height: 28px;
    }
 }

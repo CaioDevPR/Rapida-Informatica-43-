@@ -25,18 +25,18 @@
           <a href="test.html">Teste Net</a>
           <a href="contato.html" class="btn">Contato</a>
 
-          <div class="close-icon">
+          <div class="close-icon" onclick="closeMenu()">
             <i class="fa fa-times-circle"></i>
           </div>
         </ul>
-         <div class="menu-icon">
-          <ion-icon name="grid-outline"></ion-icon>
+         <div class="menu-icon" onclick="openMenu()">
+          <i class="fa fa-bars"></i>
          </div>
       </nav>
       <section class="banner">
         <div class="baner">
            <h1>Rapida Informatica</h1>
-           <p>Soluções tecnologias em pouco tempo</p>
+           <p>Concerto em até 1 hora</p>
            <a href="contato.html" class="btn animate-btn">Entrar em Contato</a>
         </div>
       </section>
@@ -137,7 +137,8 @@
 </footer>
 
  <!--fim footer-->
-
+ <script src="/js/main.js"></script>
+ <script src="https://kit.fontawesome.com/e43db87a80.js" crossorigin="anonymous"></script>
  <scrit  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" ></script> 
  <script  nomodule  src = "https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
