@@ -72,7 +72,7 @@ color: var(--bodycolor);
 
 nav ul a:not(.btn)::after{
    content: " "; 
-   background-color: red;
+   background-color: var(--bodycolor);
    height: 3px;
    width: 0%;
    display: block;
@@ -109,6 +109,7 @@ nav .close-icon{
     display: inline-block;
     transition: 0.1s ;
 }
+
 
 .btn:hover{
     background-color: #3580db;
@@ -402,8 +403,61 @@ text-align: center;
 }
 
 
+#img-sobre{
+    background-image: url('/imag/fundo\ sobre.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: grayscale(80%);
+}
 
+.sobre a{
+    border-radius: none;
+}
 
+#img-sobre a{
+    color: var(--navbar);
+}
+
+#img-sobre .btn{
+    background-color: #fffdff;
+    color: var(--navbar);
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: inline-block;
+    transition: 0.1s ;
+}
+
+.btn:hover{
+    background-color: #441052;
+}
+
+.btn.animate-btn{
+    animation: animate-outline 1s ease-out infinite;
+}
+
+@keyframes animate-outline{
+    from{
+      outline: 0px solid #000000;
+    }
+    to{
+      outline: 4px solid #fffeff;
+    }
+}
+
+.h1-primario{
+    background-color: var(--bodycolor);
+}
+
+.sobre-texto1{
+background-color: var(--navbar);
+opacity: 0.4;
+}
+
+.sobre .sobre-texto a{
+    background-color:#000000;
+   }
 
 
 
