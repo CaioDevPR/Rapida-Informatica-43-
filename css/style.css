@@ -415,6 +415,14 @@ text-align: center;
     border-radius: none;
 }
 
+.sobre .sobre-texto iframe{
+    position:relative;
+    left: 100%;
+    justify-content: center;
+    align-items: center;
+   }
+   
+
 #img-sobre a{
     color: var(--navbar);
 }
@@ -554,7 +562,12 @@ opacity: 0.4;
     }
     .sobre .sobre-texto {
         margin-top: 40px;
+       
     }
+
+    .sobre .sobre-texto iframe{
+       left: -100%;
+       }
 
     /* pagina CONTATO responsive */ 
 
