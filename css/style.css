@@ -9,11 +9,17 @@
     font-family: 'inter', sans-serif;
 }
 :root{
-    --navbar: #000;
-    --bodycolor: #fff;
-    --colorazul: #00caf8;
+    --azul: #0280af;
+    --black: #000;
+    --white: #fff;
+    --azulF: #0374a5;
+    --eminencia: #7a2e95;
+    --Prico: #051924;
 
 }
+
+
+   
 body{
     background-color: var(--bodycolor);
 }
@@ -28,8 +34,7 @@ h3{
 }
 
 p{
-    color: #000;
-}
+    color:var(--white)}
 
 .container{
     max-width: 1400px;
@@ -38,7 +43,7 @@ p{
 }
 
 .bck{
-    background-image: url('/imag/fundowbesite.jpg');
+    background-image: url('/imag/fundoprincipal.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -58,7 +63,7 @@ nav ul{
 }
 
 nav ul a{
-    color: var(--bodycolor);
+    color: var(--white);
     margin: 0 25px;
     text-transform: uppercase;
     font-size: 14px;
@@ -66,13 +71,13 @@ nav ul a{
 }
 
 nav a{
-color: var(--bodycolor);
+color: var(--white);
 
 }
 
 nav ul a:not(.btn)::after{
-   content: " "; 
-   background-color: var(--bodycolor);
+   content: ''; 
+   background-color: var(--eminencia);
    height: 3px;
    width: 0%;
    display: block;
@@ -101,8 +106,8 @@ nav .close-icon{
 /* botao contato */
 
 .btn{
-    background-color: var(--navbar);
-    color: var(--bodycolor);
+    background-color: var(--white);
+    color: var(--black);
     padding: 15px 20px;
     cursor: pointer;
     border-radius: 10px;
@@ -112,7 +117,11 @@ nav .close-icon{
 
 
 .btn:hover{
-    background-color: #3580db;
+    background-color: var(--azul);
+}
+
+.text-principal{
+    color: var(--white);
 }
 
 .btn.animate-btn{
@@ -121,7 +130,7 @@ nav .close-icon{
 
 @keyframes animate-outline{
     from{
-      outline: 0px solid #3580db;
+      outline: 0px solid var(--white);
     }
     to{
       outline: 15px solid #3580db;
@@ -142,7 +151,7 @@ nav .close-icon{
 
 .banner .baner h1{
  font-size: 96px;
- color: var(--bodycolor);
+ color: var(--white);
 }
 
 .banner .baner p{
@@ -184,7 +193,9 @@ nav .close-icon{
 .clientes h3,
 .clientes p{
 text-align: center;
-}.clientes .container div{
+}
+
+.clientes .container div{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -193,7 +204,7 @@ text-align: center;
 
 
 .footer{
-    background-color: var(--colorazul);
+    background-color: var(--azulF);
     text-align: center;
 }
 
@@ -204,6 +215,10 @@ text-align: center;
     padding: 20px;
     margin: 19px;
     border-radius: 10px;
+}
+
+footer p{
+color: var(--white);
 }
 
 .footer a img{
@@ -234,7 +249,7 @@ text-align: center;
 
 .sobre .sobre-texto p {
     margin: 18px;
-    color: var(--navbar);
+    color: var(--white);
 }
 
 .sobre .sobre-image{
@@ -250,10 +265,16 @@ text-align: center;
 
 .servicos h3{
     text-align: center;
+    color: var(--white);
 }
 
 .servicos .container > p{
      text-align: center;
+     color: var(--white)
+}
+
+.servicos .container{
+background-color: var(--eminencia);
 }
 
 .servicos .rows-cards {
@@ -264,7 +285,7 @@ text-align: center;
 }
 
 .servicos .row-card-item{
-    background-color: var(--colorazul);
+    background-color: var(--black);
     width: 350px;
     padding: 20px;
     border-radius: 14px;
@@ -273,11 +294,15 @@ text-align: center;
 }
 
 .servicos .row-card-item:hover{
-    background-color: #3580db;
+    background-color: var(--eminencia);
 }
 
 .servicos .row-card-item:hover p{
-    color: var(--bodycolor);
+    color: var(--white);
+}
+
+.servicos .row-card-item p{
+    color: var(--white);
 }
 
 .servicos .row-card-item img {
@@ -471,7 +496,13 @@ opacity: 0.4;
 
 
 
+.headers{
+        min-height:100vh;
+ }
 
+ header{
+    background-color: var(--white);
+ }
 
 
 
