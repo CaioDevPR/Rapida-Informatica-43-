@@ -12,10 +12,10 @@
 
 <body>
     <!-- header-->
-    <header style="background-image: url('imag/24.jpg');">
+    <header style="background-image: url('imag/contato.jpg');">
         <!-- container-->
 
-        <div class="container">
+        <div class="container" style="height: 100vh;">
             <nav>
                 <a href="index.html">
                     <h1>Rapida Informatica</h1>
@@ -79,13 +79,16 @@
                 </div>
 
                 <div class="direito-lado">
-                    <form action="">
-                        <input type="text" placeholder="Nome" required>
-                        <input type="email" placeholder="Email" required>
-                        <input type="text" placeholder="Assunto" required>
-                        <textarea cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <label>Nome</label>
+                        <input type="text" name="name" placeholder="Nome" autocomplete="off" required>
+                        <Label>Email</Label>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                        <button type="submit" class="btn">Enviar</button>
 
-                        <button class="btn">Enviar mensagem</button>
+                        <input type="hidden" name="accessKey" value="1e52dd9c-2e7f-4645-b50c-aa34c0a510d2">
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/contato.html">
                     </form>
                 </div>
             </div>
