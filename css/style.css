@@ -102,6 +102,27 @@ nav .close-icon{
     color: var(--bodycolor);
 }
 
+/* nav teste */
+
+.navteste{
+    background-color: var(--black);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navteste .ul a{
+    color: var(--white) !important;
+   }
+   
+   
+   .navteste h1{
+    color: var(--white) !important;
+   }
+   
+   
+
+
+/* fim nav teste */
 
 /* botao contato */
 
@@ -246,7 +267,7 @@ color: var(--white);
 }
 
 .sobre .sobre-texto{
-    width: 50%;
+    width: 20%;
     padding-right: 40px;
 }
 
@@ -326,6 +347,10 @@ padding: 60px;
     transition: 0.3s;
 }
 
+.corlink a{
+color:  var(white
+);
+}
 
 
 /* DADOS */
@@ -440,6 +465,7 @@ padding: 60px;
     background-size: cover;
     background-attachment: fixed;
     filter: grayscale(80%);
+    height: 100vh;
 }
 
 .sobre a{
@@ -503,6 +529,7 @@ opacity: 0.4;
 
 .headers{
         min-height:100vh;
+        background-image: url('/imag/testelink.jpg');
  }
 
  header{
