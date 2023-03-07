@@ -40,7 +40,7 @@ p{
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 5%;
-    height: 100vh;
+    height: ;
 }
 
 .bck{
@@ -496,8 +496,8 @@ color:  var(white
 }
 
 .btn:hover{
-    background-color: var(--bodycolor);
-    color: var(--navbar);
+    background-color: var(--black);
+    color: var(--white);
 }
 
 .btn.animate-btn{
@@ -537,8 +537,34 @@ opacity: 0.4;
     background-color: var(--white);
  }
 
+.bck{
+    height: 100vh;
+}
+
+.sobre div .iframe{
+    position: relative;
+    left: 20%;                
+}
+
+.bck .container h1{
+   animation-duration: 3s;
+   animation-name: rapidaanimate;
+   animation-iteration-count:initial;
+}
 
 
+   
+@keyframes rapidaanimate {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        widows: 100%;
+    }
+    
+}
 
 
 
@@ -629,8 +655,13 @@ opacity: 0.4;
         width: 100%;
     }
     .sobre .sobre-texto {
-        margin-top: 40px;
-       
+        margin-top: 40px;     
+    }
+
+    .sobre .sobre-texto iframe{
+        width: 20px;
+        height: 30px;
+        justify-content: center;
     }
 
     .sobre .sobre-texto iframe{
@@ -651,6 +682,15 @@ opacity: 0.4;
     .contato-info .esquerdo-lado{
         margin-bottom: 30px;
     }
+
+    /* iframe */
+
+    .iframe{
+        width: 380px;
+        height: 780px;
+        
+    }
+   
 
 }
 
