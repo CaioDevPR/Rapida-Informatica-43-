@@ -202,15 +202,22 @@ nav .close-icon{
 }
 
 .banner .baner h1{
- font-size: 96px;
+ font-size: 106px;
+ font-weight: 900;
  color: var(--white);
+ animation-duration: 3s;
+ animation-name: rapidaanimate;
+ animation-iteration-count:initial;
 }
 
 .banner .baner p{
     font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--black);
     color: var(--white);
     font-weight: 900;
-    margin: 18px 0;
+    margin: 23px 0;
 
 }
 
@@ -750,6 +757,14 @@ opacity: 0.4;
             border-radius: 4px;
             padding: 10px;
         }
+        .banner .baner h1{
+            font-size: 96px;
+            color: var(--white);
+            animation-duration: 3s;
+            animation-name: rapidaanimate;
+            animation-iteration-count:initial;
+           }
+           
                    
     }
    
