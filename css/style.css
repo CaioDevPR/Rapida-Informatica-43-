@@ -720,6 +720,11 @@ opacity: 0.4;
         .sobre div .iframe{
             left:5px;
            }
+
+           .img-principal{
+            width: 100%;
+            top: 60px;
+        }
                    
     }
    
