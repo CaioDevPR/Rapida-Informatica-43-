@@ -65,6 +65,12 @@ p{
     background-attachment: fixed;
 }
 
+.bck-contato a h1{
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 4px;
+    padding: 10px;
+}
 
 .bck-contato{
     background-position: center;
@@ -736,6 +742,13 @@ opacity: 0.4;
            .img-principal{
             width: 100%;
             top: 60px;
+        }
+
+        .bck-contato a h1{
+            background-color: var(--white);
+            color: var(--black);
+            border-radius: 4px;
+            padding: 10px;
         }
                    
     }
