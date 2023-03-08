@@ -568,7 +568,7 @@ opacity: 0.4;
 
 .sobre div .iframe{
     position: relative;
-    left: 1%;                
+    left: 20%;                
 }
 
 .bck .container h1{
@@ -714,11 +714,17 @@ opacity: 0.4;
     .iframe{
         width: 380px;
         height: 780px;
-        
+        position: relative;           
+        right: 90%;
+        }
+        .sobre div .iframe{
+            left:5px;
+           }
+                   
     }
    
 
-}
+
 
 @media (max-width: 500px){
     .banner .baner h1{
