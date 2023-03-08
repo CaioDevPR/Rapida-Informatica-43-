@@ -66,6 +66,13 @@ p{
 }
 
 
+.bck-contato{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
 nav{
     display: flex;
     align-items: center;
