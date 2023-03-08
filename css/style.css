@@ -475,6 +475,16 @@ color:  var(white
 }
 
 
+.img-principal{
+    width: 40%;
+    top: 60px;
+}
+
+.banner .baner img{
+    position:relative;
+    top:-50px;
+ }   
+
 #img-sobre{
     background-image: url('/imag/fundo\ sobre.jpg');
     background-position: center;
@@ -580,6 +590,7 @@ opacity: 0.4;
     }
     
 }
+
 
 
 
