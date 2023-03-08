@@ -556,7 +556,12 @@ opacity: 0.4;
 .headers{
         min-height:100vh;
         background-image: url('/imag/testelink.jpg');
- }
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+ 
 
  header{
     background-color: var(--white);
