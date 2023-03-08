@@ -238,10 +238,16 @@ nav .close-icon{
 }
 .faca-mais .faca-mais-text h3{
     font-size: 56px ;
+    animation-duration: 3s;
+    animation-name: logoanimate;
+    animation-iteration-count:initial;
 }
 .faca-mais .faca-mais-text p{
     margin: 5px 0 10px 0;
     color: var(--black);
+    animation-duration: 3s;
+    animation-name: logoanimate;
+    animation-iteration-count:initial;
 }
 
 .faca-mais .faca-mais-img img{
