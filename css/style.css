@@ -18,7 +18,22 @@
 
 }
 
-
+/* Image */
+.bck a img{
+    display:inline-block;
+    height:100px;
+    
+   }
+   
+   /* Image */
+   .bck .container nav a img{
+    width:100% !important;
+   }
+   .bck a span {
+    animation-duration: 3s;
+    animation-name: logoanimate;
+    animation-iteration-count:initial;
+ }   
    
 body{
     background-color: var(--bodycolor);
@@ -556,11 +571,11 @@ opacity: 0.4;
    
 @keyframes rapidaanimate {
     from {
-        margin-left: 100%;
+        margin-top: 100%;
         width: 300%;
     }
     to {
-        margin-left: 0%;
+        margin-bottom: 0%;
         widows: 100%;
     }
     
