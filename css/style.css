@@ -623,6 +623,38 @@ opacity: 0.4;
     
 }
 
+/* OBRIGADO.HTML */
+
+
+   
+.obg h1{
+    color:#7a2e95 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.obg p{
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.oi{
+    position: relative;
+    margin-left: 46%;
+    top: 5rem;
+    border: 1px solid;
+    width: 10%;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 2.0rem;
+    
+}
+
 
 
 
